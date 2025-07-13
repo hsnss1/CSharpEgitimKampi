@@ -60,7 +60,7 @@ namespace CSharpEgitimKampi.PresentationLayer
             var values = _categoryService.TGetById(id);
             dataGridView1.DataSource =  values ;
             txtCategoryName.Text = values.CategoryName;
-            // test
+            // test SS
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
